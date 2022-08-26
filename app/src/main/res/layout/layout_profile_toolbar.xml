@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        style="@style/profile_toolbar_theme"
+        android:id="@+id/toolbar"
+        android:background="@color/profile_toolbar_title_text_color">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/ivMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/margin_35"
+        android:src="@drawable/ic_profile_menu" />
+
+   <androidx.appcompat.widget.AppCompatTextView
+       android:id="@+id/tvTitle"
+       style="@style/ProfileToolBarTextStyle"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/profile" />
+
+    </androidx.appcompat.widget.Toolbar>
+</androidx.constraintlayout.widget.ConstraintLayout>

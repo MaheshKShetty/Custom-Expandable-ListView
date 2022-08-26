@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white_three">
+
+  <androidx.appcompat.widget.AppCompatTextView
+      android:id="@+id/tvFaqHeader"
+      style="@style/faqTextStyle"
+      android:layout_width="@dimen/margin_0"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="@dimen/faq_margin_16"
+      android:layout_marginTop="@dimen/faq_margin_14"
+      android:layout_marginEnd="@dimen/faq_margin_16"
+      android:layout_marginBottom="@dimen/faq_margin_14"
+      app:layout_constraintBottom_toBottomOf="@id/imgArrow"
+      app:layout_constraintEnd_toStartOf="@id/imgArrow"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@id/imgArrow" />
+
+  <androidx.appcompat.widget.AppCompatImageView
+      android:id="@+id/imgArrow"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:padding="@dimen/faq_margin_16"
+      android:src="@drawable/faq_group_icon_selector"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <View
+      android:id="@+id/groupDivider"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/faq_margin_1"
+      android:background="@color/black_87_op_12"
+      app:layout_constraintBottom_toBottomOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+

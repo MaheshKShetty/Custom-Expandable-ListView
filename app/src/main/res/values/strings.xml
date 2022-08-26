@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ExpandableFAQ</string>
+    <string name="profile">Profile</string>
+    <string name="faq">Expandable FAQ</string>
+
+    <string-array name="faq_header">
+        <item>Lorem ipsum dolor sit amet1</item>
+        <item>Lorem ipsum dolor sit amet2</item>
+        <item>Lorem ipsum dolor sit amet3</item>
+        <item>Lorem ipsum dolor sit amet4</item>
+    </string-array>
+    <string-array name="faq1">
+        <item>Metus aliquam eleifend mi in nulla posuere. Phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim. Aliquam ut porttitor leo a diam sollicitudin tempor id eu. Mattis rhoncus urna neque viverra justo nec. A diam sollicitudin tempor id eu nisl. Eu feugiat pretium nibh ipsum consequat. Risus ultricies tristique nulla aliquet. In arcu cursus euismod quis viverra nibh cras pulvinar mattis. Vel facilisis volutpat est velit egestas dui id ornare. Nec feugiat in fermentum.</item>
+        <item>Metus aliquam eleifend mi in nulla posuere.</item>
+    </string-array>
+    <string-array name="faq2">
+        <item>Metus aliquam eleifend mi in nulla posuere. Phasellus vestibulum lorem sed risus ultricies tristique nulla aliquet enim. Aliquam ut porttitor leo a diam sollicitudin tempor id eu. Mattis rhoncus urna neque viverra justo nec. A diam sollicitudin tempor id eu nisl. Eu feugiat pretium nibh ipsum consequat. Risus ultricies tristique nulla aliquet. In arcu cursus euismod quis viverra nibh cras pulvinar mattis.</item>
+    </string-array>
+
+</resources>
